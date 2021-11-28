@@ -51,7 +51,7 @@ spec:
 
         # Our nginx container, which uses the configuration declared above,
         # along with the files shared with the PHP-FPM app.
-        - image: crewst/fpm-react-client:1.0.0r1
+        - image: crewst/fpm-react-client:1.0.0r2
           name: fpm-react-client
           volumeMounts:
             - name: shared-files
